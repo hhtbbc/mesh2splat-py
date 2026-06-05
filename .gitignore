@@ -1,0 +1,35 @@
+__pycache__/
+*.pyc
+*.pyo
+__pycache__/
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+*.egg
+
+# Original EA Mesh2Splat C++ project (not part of this repo)
+mesh2splat/
+
+# Backups
+mesh2splat_backup_*/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Output
+training_output/
+*.ply
+*.npz
+
+# Blender
+*.blend1
+
+# OS
+.DS_Store
+Thumbs.db
+.claude/
